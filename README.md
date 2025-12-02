@@ -474,10 +474,5 @@ This project is open source and available for educational and creative purposes.
 - **HuggingFace**: For state-of-the-art embedding models
 - **Streamlit**: For making web app development simple and beautiful
 
----
-
-## Contact
-
-For questions, suggestions, or collaboration opportunities, please open an issue on GitHub.
 
 
