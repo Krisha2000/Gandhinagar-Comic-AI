@@ -23,7 +23,7 @@ import image_analyzer
 # Page Configuration
 st.set_page_config(
     page_title="Gandhinagar Comic AI",
-    page_icon="🎨",
+    page_icon="📚",
     layout="wide",
     initial_sidebar_state="expanded"
 )
@@ -37,23 +37,23 @@ if 'generated_images' not in st.session_state:
     st.session_state.generated_images = None
 
 # Sidebar Navigation
-st.sidebar.title("🎨 Gandhinagar Comic AI")
+st.sidebar.title("Gandhinagar Comic AI")
 st.sidebar.markdown("---")
 page = st.sidebar.radio(
     "Navigate",
-    ["1️⃣ Character Studio", "2️⃣ Story Lab", "3️⃣ Comic Factory", "4️⃣ Ask the Universe", "5️⃣ Story Archive", "6️⃣ Image Magic"],
+    ["Character Studio", "Story Lab", "Comic Factory", "Ask the Universe", "Story Archive", "Image Magic"],
     label_visibility="collapsed"
 )
 
 # ============================================================================
 # PAGE 1: CHARACTER STUDIO
 # ============================================================================
-if page == "1️⃣ Character Studio":
-    st.title("👤 Character Studio")
+if page == "Character Studio":
+    st.title("Character Studio")
     st.markdown("Add new characters to your comic universe")
     
     # Display existing characters
-    with st.expander("📚 Existing Characters", expanded=False):
+    with st.expander("Existing Characters", expanded=False):
         characters = character_manager.list_all_characters()
         if characters:
             cols = st.columns(4)
@@ -76,7 +76,7 @@ if page == "1️⃣ Character Studio":
     st.markdown("---")
     
     # Add new character
-    st.subheader("➕ Add New Character")
+    st.subheader("Add New Character")
     
     add_method = st.radio(
         "How would you like to add the character?",
@@ -119,7 +119,7 @@ if page == "1️⃣ Character Studio":
                 help="Upload 1-3 reference images of the character"
             )
         
-        submitted = st.form_submit_button("✨ Create Character", use_container_width=True)
+        submitted = st.form_submit_button("Create Character", use_container_width=True)
         
         if submitted:
             if not char_name or not char_role or not char_visual:
@@ -151,7 +151,7 @@ if page == "1️⃣ Character Studio":
                                 tags=tags_list
                             )
                     
-                    st.success(f"✅ Successfully created {char_name}!")
+                    st.success(f"Successfully created {char_name}!")
                     st.balloons()
                     
                     # Show created character
@@ -166,8 +166,8 @@ if page == "1️⃣ Character Studio":
 # ============================================================================
 # PAGE 2: STORY LAB
 # ============================================================================
-elif page == "2️⃣ Story Lab":
-    st.title("✍️ Story Lab")
+elif page == "Story Lab":
+    st.title("Story Lab")
     st.markdown("Generate and approve stories for your comics")
     
     # Step 1: Story Idea Input
@@ -181,7 +181,7 @@ elif page == "2️⃣ Story Lab":
     
     col1, col2 = st.columns([1, 3])
     with col1:
-        generate_btn = st.button("🚀 Generate Story", use_container_width=True, type="primary")
+        generate_btn = st.button("Generate Story", use_container_width=True, type="primary")
     
     if generate_btn and story_idea:
         with st.spinner("Writing your story..."):
@@ -207,7 +207,7 @@ elif page == "2️⃣ Story Lab":
         
         col1, col2 = st.columns([1, 3])
         with col1:
-            approve_btn = st.button("✅ Approve & Generate Prompts", use_container_width=True, type="primary")
+            approve_btn = st.button("Approve & Generate Prompts", use_container_width=True, type="primary")
         
         if approve_btn:
             st.session_state.current_story = edited_story
@@ -219,7 +219,7 @@ elif page == "2️⃣ Story Lab":
                     
                     # Save story using story_manager
                     story_manager.save_story(edited_story)
-                    st.success("✅ Comic prompts generated and story saved to archive!")
+                    st.success("Comic prompts generated and story saved to archive!")
                 except Exception as e:
                     st.error(f"Prompt generation failed: {e}")
     
@@ -230,7 +230,7 @@ elif page == "2️⃣ Story Lab":
         st.info("These are the 6 scenes that will be generated. Review them before creating the comic.")
         
         for prompt_data in st.session_state.current_prompts:
-            with st.expander(f"📸 Panel {prompt_data.get('panel', '?')} - {prompt_data.get('scene', 'Scene')}", expanded=False):
+            with st.expander(f"Panel {prompt_data.get('panel', '?')} - {prompt_data.get('scene', 'Scene')}", expanded=False):
                 col1, col2 = st.columns(2)
                 
                 with col1:
@@ -244,21 +244,21 @@ elif page == "2️⃣ Story Lab":
                 
                 st.caption(f"**Image Prompt:** {prompt_data.get('image_prompt', 'N/A')[:200]}...")
         
-        st.success("✅ Prompts ready! Go to **Comic Factory** to generate images.")
+        st.success("Prompts ready! Go to **Comic Factory** to generate images.")
 
 # ============================================================================
 # PAGE 3: COMIC FACTORY
 # ============================================================================
-elif page == "3️⃣ Comic Factory":
-    st.title("🖼️ Comic Factory")
+elif page == "Comic Factory":
+    st.title("Comic Factory")
     st.markdown("Generate your 6-panel comic strip")
     
     if not st.session_state.current_prompts:
-        st.warning("⚠️ No approved prompts found. Please complete the **Story Lab** workflow first.")
+        st.warning("No approved prompts found. Please complete the **Story Lab** workflow first.")
         st.info("Go to **Story Lab** → Enter idea → Generate story → Approve → Generate prompts")
     else:
         # Show story summary
-        with st.expander("📖 Story Summary", expanded=False):
+        with st.expander("Story Summary", expanded=False):
             st.write(st.session_state.current_story)
         
         st.markdown("---")
@@ -268,7 +268,7 @@ elif page == "3️⃣ Comic Factory":
             st.subheader("Ready to Generate Comic")
             st.info(f"Will generate {len(st.session_state.current_prompts)} panels using Pollinations AI")
             
-            if st.button("🎨 Generate Comic Strip", use_container_width=True, type="primary"):
+            if st.button("Generate Comic Strip", use_container_width=True, type="primary"):
                 progress_bar = st.progress(0)
                 status_text = st.empty()
                 
@@ -304,7 +304,7 @@ elif page == "3️⃣ Comic Factory":
                             image_paths.append(save_path)
                     
                     progress_bar.progress(1.0)
-                    status_text.text("✅ All panels generated!")
+                    status_text.text("All panels generated!")
                     
                     # Save metadata
                     metadata = {
@@ -319,7 +319,7 @@ elif page == "3️⃣ Comic Factory":
                         json.dump(metadata, f, indent=2)
                     
                     st.session_state.generated_images = image_paths
-                    st.success("🎉 Comic strip generated successfully!")
+                    st.success("Comic strip generated successfully!")
                     st.balloons()
                     
                 except Exception as e:
@@ -328,7 +328,7 @@ elif page == "3️⃣ Comic Factory":
         # Display generated comic
         if st.session_state.generated_images:
             st.markdown("---")
-            st.subheader("🎬 Your Comic Strip")
+            st.subheader("Your Comic Strip")
             
             # Display in grid
             cols = st.columns(3)
@@ -339,7 +339,7 @@ elif page == "3️⃣ Comic Factory":
             
             # Download buttons
             st.markdown("---")
-            st.subheader("💾 Download")
+            st.subheader("Download")
             
             download_cols = st.columns(len(st.session_state.generated_images))
             for i, img_path in enumerate(st.session_state.generated_images):
@@ -357,8 +357,8 @@ elif page == "3️⃣ Comic Factory":
 # ============================================================================
 # PAGE 4: ASK THE UNIVERSE (RAG Q&A)
 # ============================================================================
-elif page == "4️⃣ Ask the Universe":
-    st.title("🌌 Ask the Universe")
+elif page == "Ask the Universe":
+    st.title("Ask the Universe")
     st.markdown("Ask questions about your characters and world!")
     
     # Chat history
@@ -411,8 +411,8 @@ elif page == "4️⃣ Ask the Universe":
 # ============================================================================
 # PAGE 5: STORY ARCHIVE
 # ============================================================================
-elif page == "5️⃣ Story Archive":
-    st.title("📚 Story Archive")
+elif page == "Story Archive":
+    st.title("Story Archive")
     st.markdown("View and manage your comic stories.")
     
     stories = story_manager.get_all_stories()
@@ -421,10 +421,10 @@ elif page == "5️⃣ Story Archive":
         st.info("No stories archived yet. Go to **Story Lab** to create one!")
     else:
         for story in stories:
-            with st.expander(f"📄 {story.get('title', 'Untitled')} ({story.get('created_at', '')[:10]})"):
+            with st.expander(f"{story.get('title', 'Untitled')} ({story.get('created_at', '')[:10]})"):
                 st.write(story.get('content', ''))
                 
-                if st.button("🗑️ Delete Story", key=f"del_{story.get('id')}"):
+                if st.button("Delete Story", key=f"del_{story.get('id')}"):
                     if story_manager.delete_story(story.get('id')):
                         st.success("Story deleted!")
                         st.rerun()
@@ -434,12 +434,12 @@ elif page == "5️⃣ Story Archive":
 # ============================================================================
 # PAGE 6: IMAGE MAGIC
 # ============================================================================
-elif page == "6️⃣ Image Magic":
-    st.title("✨ Image Magic")
+elif page == "Image Magic":
+    st.title("Image Magic")
     st.markdown("Create, Remix, and Reimagine with AI")
 
     # Tabs for different modes
-    tab1, tab2, tab3 = st.tabs(["🎨 Text to Image", "🔄 Reimagine Image", "📝 Image to Story"])
+    tab1, tab2, tab3 = st.tabs(["Text to Image", "Reimagine Image", "Image to Story"])
 
     # TAB 1: TEXT TO IMAGE (Existing functionality)
     with tab1:
@@ -467,7 +467,7 @@ elif page == "6️⃣ Image Magic":
                 key="t2i_style"
             )
             
-            generate_btn = st.button("🎨 Generate Magic", type="primary", use_container_width=True, key="t2i_btn")
+            generate_btn = st.button("Generate Magic", type="primary", use_container_width=True, key="t2i_btn")
 
         with col2:
             if generate_btn and custom_prompt:
@@ -506,7 +506,7 @@ elif page == "6️⃣ Image Magic":
                             
                             with open(img_path, "rb") as f:
                                 st.download_button(
-                                    "⬇️ Download Image",
+                                    "Download Image",
                                     f.read(),
                                     file_name="magic_image.png",
                                     mime="image/png",
@@ -540,7 +540,7 @@ elif page == "6️⃣ Image Magic":
                 key="i2i_prompt"
             )
             
-            reimagine_btn = st.button("🔄 Reimagine", type="primary", use_container_width=True, key="i2i_btn")
+            reimagine_btn = st.button("Reimagine", type="primary", use_container_width=True, key="i2i_btn")
 
         with col2:
             if uploaded_file:
@@ -566,13 +566,13 @@ elif page == "6️⃣ Image Magic":
                             )
                             
                             if result.get("image_path"):
-                                st.success("✨ Image Reimagined!")
+                                st.success("Image Reimagined!")
                                 st.image(result["image_path"], caption="Reimagined Image", use_container_width=True)
                                 st.info(result.get("description", ""))
                                 
                                 with open(result["image_path"], "rb") as f:
                                     st.download_button(
-                                        "⬇️ Download Reimagined Image",
+                                        "Download Reimagined Image",
                                         f.read(),
                                         file_name="reimagined_image.png",
                                         mime="image/png",
@@ -596,7 +596,7 @@ elif page == "6️⃣ Image Magic":
         col1, col2 = st.columns([1, 1])
         with col1:
             story_image = st.file_uploader("Upload Image for Story", type=["png", "jpg", "jpeg"], key="i2s_upload")
-            generate_story_btn = st.button("📝 Write Story", type="primary", use_container_width=True, key="i2s_btn")
+            generate_story_btn = st.button("Write Story", type="primary", use_container_width=True, key="i2s_btn")
 
         with col2:
             if story_image:
@@ -614,11 +614,11 @@ elif page == "6️⃣ Image Magic":
                         # Generate story
                         story_text = image_analyzer.generate_story_from_image(tmp_path)
                         
-                        st.success("✨ Story Generated!")
+                        st.success("Story Generated!")
                         st.text_area("Generated Story", value=story_text, height=300)
                         
                         # Option to send to Story Lab
-                        if st.button("🚀 Send to Story Lab", key="send_to_lab"):
+                        if st.button("Send to Story Lab", key="send_to_lab"):
                             st.session_state.current_story = story_text
                             st.session_state.current_prompts = None
                             st.session_state.generated_images = None
@@ -632,6 +632,6 @@ elif page == "6️⃣ Image Magic":
 
 # Footer
 st.sidebar.markdown("---")
-st.sidebar.caption("🎨 Gandhinagar Comic AI")
+st.sidebar.caption("Gandhinagar Comic AI")
 st.sidebar.caption("Powered by Gemini & Pollinations")
 st.sidebar.caption("All content is safe-for-work and all-ages friendly")
