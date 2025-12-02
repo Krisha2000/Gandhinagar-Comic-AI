@@ -1,5 +1,5 @@
 """
-QA Engine Module
+QA Engine Module - OPTIMIZED for Streamlit Cloud
 Handles RAG-based Q&A with character image retrieval
 """
 import json
@@ -7,23 +7,36 @@ import google.generativeai as genai
 from langchain_chroma import Chroma
 from langchain_huggingface import HuggingFaceEmbeddings
 import config
+import streamlit as st
 
 genai.configure(api_key=config.GOOGLE_API_KEY)
 
-def load_retriever():
-    """Load ChromaDB retriever"""
+@st.cache_resource
+def get_embeddings():
+    """Cache the embeddings model to avoid reloading"""
+    return HuggingFaceEmbeddings(model_name=config.EMBEDDING_MODEL)
+
+@st.cache_resource
+def get_vectorstore():
+    """Cache the vectorstore to avoid reloading"""
     try:
-        embeddings = HuggingFaceEmbeddings(model_name=config.EMBEDDING_MODEL)
+        embeddings = get_embeddings()
         vectorstore = Chroma(
             persist_directory=config.VECTOR_DB_DIR,
             embedding_function=embeddings,
             collection_name="gandhinagar_school"
         )
-        # Fetch more documents to ensure we get relevant images
-        return vectorstore.as_retriever(search_kwargs={"k": 4})
+        return vectorstore
     except Exception as e:
-        print(f"[WARN] RAG failed: {e}")
+        print(f"[WARN] Failed to load vectorstore: {e}")
         return None
+
+def load_retriever():
+    """Load ChromaDB retriever (uses cached vectorstore)"""
+    vectorstore = get_vectorstore()
+    if vectorstore:
+        return vectorstore.as_retriever(search_kwargs={"k": 4})
+    return None
 
 def answer_question(query: str) -> dict:
     """
@@ -85,7 +98,7 @@ def answer_question(query: str) -> dict:
                 except Exception as e:
                     pass
             
-            context = "\n\n".join(context_parts)
+            context = "\\n\\n".join(context_parts)
             
         except Exception as e:
             print(f"[WARN] Retrieval failed: {e}")
@@ -158,7 +171,7 @@ def answer_question(query: str) -> dict:
     # Add info about generated images to the prompt
     image_info = ""
     if relevant_images:
-        image_info = f"\n\n[SYSTEM NOTE: {len(relevant_images)} image(s) have been generated and will be shown to the user below your response.]"
+        image_info = f"\\n\\n[SYSTEM NOTE: {len(relevant_images)} image(s) have been generated and will be shown to the user below your response.]"
     
     prompt = f"""You are the chronicler of the Gandhinagar School Universe.
     
