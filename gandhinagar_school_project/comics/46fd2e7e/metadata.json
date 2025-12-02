@@ -1,0 +1,69 @@
+{
+  "id": "46fd2e7e",
+  "created_at": "2025-12-02T13:47:59.230114",
+  "story": "**Panel 1:**\n\n*   **Setting:** Rohan's small bedroom in the government quarters. Sunlight streams in. His digital watch reads 8:15 AM.\n*   **Action:** Rohan bolts upright in bed, eyes wide with panic. His oiled hair is sticking up at odd angles.\n*   **Rohan (Thought Bubble):** 8:15?! Aiyyo! I'm so dead! Papa will kill me.\n\n**Panel 2:**\n\n*   **Setting:** Rohan frantically getting dressed. He's halfway into his school trousers, struggling.\n*   **Action:** He's hopping on one leg trying to pull up his pants. Laptop is precariously balanced on the edge of his desk.\n*   **Rohan:** (Muttering) Shirt...belt...ID...shoes...brain...where's my brain?!\n\n**Panel 3:**\n\n*   **Setting:** Kitchen. Anjali Ben, Rohan\u2019s mother, is at the stove, looking concerned. She's stirring something in a pot.\n*   **Action:** Rohan grabs a thepla straight from the pan, nearly burning his hand.\n*   **Anjali Ben:** Rohan! Careful! You'll burn yourself! And eat properly, beta, you\u2019re too skinny.\n*   **Rohan:** (Mouth full) No time, Mummy! Late! Gotta run!\n\n**Panel 4:**\n\n*   **Setting:** Street outside the government quarters. Rohan is sprinting, laptop clutched tightly.\n*   **Action:** Rohan\u2019s glasses are slipping down his nose. He's running past a cow peacefully grazing.\n*   **Rohan:** (Panting) Almost...there...just... gotta...make...it! Please don't let Mr. Sharma be at the gate early today...\n\n**Panel 5:**\n\n*   **Setting:** Gandhinagar school gate. Mr. Sharma, the grumpy gatekeeper, is looking at his watch.\n*   **Action:** Rohan skids to a halt right in front of the gate. He\u2019s sweating and out of breath.\n*   **Mr. Sharma:** (Sternly) Patel! You're late again!\n*   **Rohan:** (Gasping) Sir! So sorry, Sir! Overslept! Traffic! Aliens! (Under his breath) Okay, maybe not aliens.\n\n**Panel 6:**\n\n*   **Setting:** Rohan sitting in his classroom, looking relieved, fiddling with the code on his laptop.\n*   **Action:** He smiles to himself. Close up on the computer screen showing lines of code.\n*   **Rohan (Thought Bubble):** Made it! Now, back to debugging the virtual pet project. At least *he* never sleeps in.",
+  "prompts": [
+    {
+      "panel": 1,
+      "scene": "Rohan's small bedroom in the government quarters. Sunlight streams in through the window. His digital Casio watch reads 8:15 AM.",
+      "characters": "Rohan Patel, a slender Indian teenage boy with oiled dark hair sticking up, wearing pajamas. He is bolting upright in bed, eyes wide with panic. He is wearing his digital Casio watch.",
+      "dialogue": "Rohan (Thought Bubble): 8:15?! Aiyyo! I'm so dead! Papa will kill me.",
+      "camera_angle": "Close-up on Rohan's face",
+      "emotion": "Panic, alarm",
+      "image_prompt": "A close-up shot of Rohan Patel, a slender Indian teenage boy, jolting awake in bed. His oiled dark hair is messy. He wears rectangular glasses and a digital Casio watch. The sunlight streams into his modest bedroom. He's in light blue pajamas. His eyes are wide with panic.. Comic book art style, clean lines, vibrant colors, slightly anime-influenced webtoon aesthetic, safe for work, no nudity, no sexual content, no gore, no real people, no copyrighted characters or logos, original characters only, all-ages friendly"
+    },
+    {
+      "panel": 2,
+      "scene": "Rohan frantically getting dressed in his bedroom. His laptop is precariously balanced on the edge of his desk.",
+      "characters": "Rohan Patel, halfway into his Gandhinagar school trousers, struggling to pull them up. He is wearing his school uniform shirt. His laptop is nearby.",
+      "dialogue": "Rohan: (Muttering) Shirt...belt...ID...shoes...brain...where's my brain?!",
+      "camera_angle": "Medium shot",
+      "emotion": "Frantic, rushed",
+      "image_prompt": "A medium shot of Rohan Patel, a slender Indian teenage boy, frantically getting dressed in his Gandhinagar school uniform. He's hopping on one leg trying to pull up his dark brown trousers. His beige short-sleeved shirt is half-buttoned. His black rectangular glasses are askew. A slightly beat-up laptop sits on his desk in the background.. Comic book art style, clean lines, vibrant colors, slightly anime-influenced webtoon aesthetic, safe for work, no nudity, no sexual content, no gore, no real people, no copyrighted characters or logos, original characters only, all-ages friendly"
+    },
+    {
+      "panel": 3,
+      "scene": "Kitchen. Anjali Ben, Rohan\u2019s mother, is at the stove, looking concerned. She's stirring something in a pot on the stove.",
+      "characters": "Anjali Ben, a kind-looking Indian woman, is at the stove. Rohan Patel is grabbing a thepla from the pan.",
+      "dialogue": "Anjali Ben: Rohan! Careful! You'll burn yourself! And eat properly, beta, you\u2019re too skinny.\nRohan: (Mouth full) No time, Mummy! Late! Gotta run!",
+      "camera_angle": "Over-the-shoulder shot of Anjali Ben",
+      "emotion": "Concern, worry, haste",
+      "image_prompt": "An over-the-shoulder shot of Anjali Ben, a kind-looking Indian woman, stirring a pot on the stove in her kitchen. Rohan Patel, a slender Indian teenage boy in his partially completed school uniform, is grabbing a thepla straight from the pan. He is wearing his rectangular black glasses.. Comic book art style, clean lines, vibrant colors, slightly anime-influenced webtoon aesthetic, safe for work, no nudity, no sexual content, no gore, no real people, no copyrighted characters or logos, original characters only, all-ages friendly"
+    },
+    {
+      "panel": 4,
+      "scene": "Street outside the government quarters. Rohan is sprinting, laptop clutched tightly under his arm.",
+      "characters": "Rohan Patel, sprinting. He is wearing his school uniform: beige shirt, dark brown trousers. His glasses are slipping down his nose. A cow is peacefully grazing by the side of the road.",
+      "dialogue": "Rohan: (Panting) Almost...there...just... gotta...make...it! Please don't let Mr. Sharma be at the gate early today...",
+      "camera_angle": "Wide shot",
+      "emotion": "Desperation, urgency",
+      "image_prompt": "A wide shot of a street outside a government quarters in Gandhinagar. Rohan Patel, a slender Indian teenage boy in his school uniform, is sprinting down the road, clutching a laptop under his arm. His glasses are slipping. A cow is peacefully grazing in the background.. Comic book art style, clean lines, vibrant colors, slightly anime-influenced webtoon aesthetic, safe for work, no nudity, no sexual content, no gore, no real people, no copyrighted characters or logos, original characters only, all-ages friendly"
+    },
+    {
+      "panel": 5,
+      "scene": "Gandhinagar school gate. Mr. Sharma, the grumpy gatekeeper, is looking at his watch.",
+      "characters": "Mr. Sharma, a stern-looking older man in a khaki uniform, stands at the school gate. Rohan Patel skids to a halt in front of him. Rohan is sweating and out of breath.",
+      "dialogue": "Mr. Sharma: (Sternly) Patel! You're late again!\nRohan: (Gasping) Sir! So sorry, Sir! Overslept! Traffic! Aliens! (Under his breath) Okay, maybe not aliens.",
+      "camera_angle": "Medium shot",
+      "emotion": "Anxiety, relief (mixed)",
+      "image_prompt": "A medium shot of the Gandhinagar school gate. Mr. Sharma, a stern-looking older man in a khaki uniform, is looking down at Rohan Patel. Rohan, a slender Indian teenage boy in his school uniform, is skidding to a halt, sweating and out of breath. His glasses are crooked.. Comic book art style, clean lines, vibrant colors, slightly anime-influenced webtoon aesthetic, safe for work, no nudity, no sexual content, no gore, no real people, no copyrighted characters or logos, original characters only, all-ages friendly"
+    },
+    {
+      "panel": 6,
+      "scene": "Rohan sitting in his classroom, looking relieved, working on his laptop.",
+      "characters": "Rohan Patel, sitting at his desk in a classroom. He is coding on his laptop, looking relieved. Close-up on the computer screen.",
+      "dialogue": "Rohan (Thought Bubble): Made it! Now, back to debugging the virtual pet project. At least *he* never sleeps in.",
+      "camera_angle": "Close-up on Rohan and the laptop screen.",
+      "emotion": "Relief, focus, contentment",
+      "image_prompt": "A close-up shot of Rohan Patel, a slender Indian teenage boy, sitting at his desk in a classroom. He is smiling slightly and coding on his laptop. The screen displays lines of colorful code. He is wearing his Gandhinagar school uniform and rectangular black glasses. He looks relieved.. Comic book art style, clean lines, vibrant colors, slightly anime-influenced webtoon aesthetic, safe for work, no nudity, no sexual content, no gore, no real people, no copyrighted characters or logos, original characters only, all-ages friendly"
+    }
+  ],
+  "image_paths": [
+    "gandhinagar_school_project/comics/46fd2e7e/panel_1.png",
+    "gandhinagar_school_project/comics/46fd2e7e/panel_2.png",
+    "gandhinagar_school_project/comics/46fd2e7e/panel_3.png",
+    "gandhinagar_school_project/comics/46fd2e7e/panel_4.png",
+    "gandhinagar_school_project/comics/46fd2e7e/panel_5.png",
+    "gandhinagar_school_project/comics/46fd2e7e/panel_6.png"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "teacher_01",
+  "name": "Ms. Mehta",
+  "role": "Class Teacher (10-B) & English",
+  "visual_features": {
+    "clothing": "Cotton Saree (pastel colors)",
+    "accessories": "Reading glasses on a chain, red pen"
+  },
+  "personality": {
+    "traits": [
+      "Strict but motherly",
+      "Sharp observer"
+    ],
+    "dialogue_style": "Mixes English with Gujarati scolding ('Beta, behave yourself')"
+  }
+}

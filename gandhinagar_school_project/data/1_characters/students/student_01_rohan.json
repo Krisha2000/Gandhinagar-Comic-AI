@@ -1,0 +1,23 @@
+{
+  "id": "student_01",
+  "name": "Rohan Patel",
+  "role": "The Anxious Techie",
+  "visual_features": {
+    "hair": "Neatly parted, oiled",
+    "accessories": "Thick black rectangular glasses, digital watch",
+    "uniform": "Shirt tucked in tightly, ID card always visible"
+  },
+  "personality": {
+    "traits": [
+      "Logical",
+      "Anxious",
+      "Secretly rebellious"
+    ],
+    "likes": [
+      "Coding",
+      "Sci-fi movies",
+      "Thepla"
+    ],
+    "catchphrase": "But madam, logically this is not possible."
+  }
+}

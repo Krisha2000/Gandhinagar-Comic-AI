@@ -1,0 +1,22 @@
+{
+  "id": "rohan_patel_588306cf",
+  "name": "Rohan Patel",
+  "role": "The Quiet Tech Whiz",
+  "age": "16",
+  "visual_description": "An Indian teenage boy, roughly 16 years old, slender build. He is wearing the standard Gandhinagar school uniform: a neat beige short-sleeved shirt tucked tightly into dark brown school trousers, a black belt, and black school shoes. A school ID card hangs around his neck on a lanyard. His unique features include neatly parted oiled dark hair, thick black rectangular glasses, and a digital Casio watch on his wrist. He carries a slightly beat-up laptop under his arm. Nervous yet focused expression",
+  "personality_description": "Soft-spoken, intelligent, anxious but determined, loves coding, overthinks everything, loyal friend.",
+  "tags": [
+    "student",
+    "school",
+    "male",
+    "teenager",
+    "introverted",
+    "techie",
+    "nerdy",
+    "coder",
+    "Gandhinagar"
+  ],
+  "image_paths": [
+    "gandhinagar_school_project/data/1_characters/students/rohan_patel_588306cf/reference_1.png"
+  ]
+}

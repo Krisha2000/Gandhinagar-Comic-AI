@@ -1,0 +1,23 @@
+{
+  "id": "student_02",
+  "name": "Kabir Khan",
+  "role": "The Charismatic Backbencher",
+  "visual_features": {
+    "hair": "Messy, windblown style",
+    "accessories": "Loose tie, sleeves rolled up, friendship bands",
+    "uniform": "Untucked shirt when teachers aren't looking"
+  },
+  "personality": {
+    "traits": [
+      "Charming",
+      "Lazy",
+      "Street-smart"
+    ],
+    "likes": [
+      "Cricket",
+      "Pranks",
+      "Sleeping in History class"
+    ],
+    "catchphrase": "Relax yaar, sab set hai."
+  }
+}

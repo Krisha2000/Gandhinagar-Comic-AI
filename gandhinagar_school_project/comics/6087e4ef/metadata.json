@@ -1,0 +1,69 @@
+{
+  "id": "6087e4ef",
+  "created_at": "2025-12-02T14:18:45.040991",
+  "story": "Okay, here's a 6-panel comic strip story about Priya, Rohan, and Kabir, with a focus on Priya's curiosity:\n\n**Title: Priya's Puzzling Pursuance**\n\n**Panel 1:**\n\n*   **Setting:** School hallway, lockers. Rohan and Kabir huddle, whispering conspiratorially, backs turned to the approaching Priya.\n*   **Visual:** Exaggerated secrecy \u2013 Rohan glances nervously over his shoulder, Kabir has a hand cupped around his mouth.\n*   **Dialogue:**\n    *   **Kabir:** \"...and then, I told him the samosa was *extra* spicy! You should've seen his face!\"\n    *   **Rohan:** (Whispering) \"Shhh! Someone might hear!\"\n\n**Panel 2:**\n\n*   **Setting:** Priya, standing a few feet away, round glasses perched on her nose, head tilted inquisitively.\n*   **Visual:** Thought bubble above Priya's head containing question marks and a magnifying glass.\n*   **Dialogue:** (Priya's internal monologue) \"Samosas? Spicy faces? What fascinating secret are they keeping *now*?\"\n\n**Panel 3:**\n\n*   **Setting:** Close-up on Priya\u2019s face as she pretends to be engrossed in a book, but her eyes are clearly peering at Rohan and Kabir.\n*   **Visual:** Priya is trying to look casual, but one eyebrow is raised suspiciously.\n*   **Dialogue:** (No dialogue, just Priya's expression)\n\n**Panel 4:**\n\n*   **Setting:** Rohan and Kabir, oblivious to Priya\u2019s spying, start laughing loudly.\n*   **Visual:** Rohan clutches his stomach, tears welling in his eyes. Kabir claps Rohan on the back, nearly knocking him over.\n*   **Dialogue:**\n    *   **Kabir:** \"The best part was when he started fanning his mouth with his hall pass!\"\n    *   **Rohan:** \"I can't... breathe... laughing too hard!\"\n\n**Panel 5:**\n\n*   **Setting:** Priya abruptly \"stumbles\" forward, dropping her book directly in front of Rohan and Kabir.\n*   **Visual:** Priya feigns surprise, book splayed open on the floor. Rohan and Kabir look startled.\n*   **Dialogue:**\n    *   **Priya:** \"Oh! Excuse me! I'm so clumsy sometimes! What were you two discussing so animatedly?\"\n\n**Panel 6:**\n\n*   **Setting:** Trio standing in the hallway. Rohan and Kabir exchange nervous glances. Priya smiles innocently.\n*   **Visual:** Rohan is sweating again. Kabir shrugs with a mischievous grin. Priya's eyes twinkle.\n*   **Dialogue:**\n    *   **Kabir:** \"Just... a little story about\u2026 lunch. You know, the usual.\"\n    *   **Priya:** (Smiling sweetly) \"Oh, do tell! I'm *always* interested in culinary anecdotes\u2026 especially involving spicy samosas!\"\n    *   **Rohan:** (Muttering) \"Bernoulli's principle would explain the fanning...\"",
+  "prompts": [
+    {
+      "panel": 1,
+      "scene": "School hallway with lockers. Rohan and Kabir huddle, backs turned to Priya, whispering.",
+      "characters": "Rohan, nervously glancing over his shoulder, wearing glasses and a school uniform. Kabir, with a hand cupped around his mouth, also in uniform. Exaggerated secrecy.",
+      "dialogue": "Kabir: \"...and then, I told him the samosa was *extra* spicy! You should've seen his face!\"\nRohan: (Whispering) \"Shhh! Someone might hear!\"",
+      "camera_angle": "Medium shot, focusing on Rohan and Kabir from the back, showing the hallway setting.",
+      "emotion": "Secretive, conspiratorial.",
+      "image_prompt": "Two high school students, Rohan and Kabir, whispering conspiratorially in a school hallway. Lockers line the background. Rohan nervously glances over his shoulder. Kabir has his hand cupped around his mouth as he speaks. The lighting is bright, typical of a school hallway.. Comic book art style, clean lines, vibrant colors, slightly anime-influenced webtoon aesthetic, safe for work, no nudity, no sexual content, no gore, no real people, no copyrighted characters or logos, original characters only, all-ages friendly"
+    },
+    {
+      "panel": 2,
+      "scene": "Priya stands a few feet away, head tilted inquisitively, observing Rohan and Kabir.",
+      "characters": "Priya, wearing round glasses, with a curious expression and tilted head. She's wearing a school uniform. A thought bubble above her head contains question marks and a magnifying glass.",
+      "dialogue": "(Priya's internal monologue) \"Samosas? Spicy faces? What fascinating secret are they keeping *now*?\"",
+      "camera_angle": "Close-up on Priya, focusing on her face and the thought bubble above her head.",
+      "emotion": "Curious, inquisitive.",
+      "image_prompt": "A close-up shot of a high school student, Priya, with round glasses, looking curious and inquisitive. Above her head is a thought bubble filled with question marks and a magnifying glass. The background is slightly blurred.. Comic book art style, clean lines, vibrant colors, slightly anime-influenced webtoon aesthetic, safe for work, no nudity, no sexual content, no gore, no real people, no copyrighted characters or logos, original characters only, all-ages friendly"
+    },
+    {
+      "panel": 3,
+      "scene": "Priya pretends to read a book, but her eyes are peering at Rohan and Kabir.",
+      "characters": "Priya, holding a book, trying to look casual but with one eyebrow raised suspiciously. School uniform.",
+      "dialogue": "(No dialogue, just Priya's expression)",
+      "camera_angle": "Medium shot, focusing on Priya's face as she pretends to read. Show Rohan and Kabir in the background, slightly out of focus.",
+      "emotion": "Suspicious, observant.",
+      "image_prompt": "A high school student, Priya, is pretending to read a book in a hallway, but her eyes are subtly peering at two other students, Rohan and Kabir, in the background. One of her eyebrows is raised suspiciously. The scene is set in a school hallway with lockers.. Comic book art style, clean lines, vibrant colors, slightly anime-influenced webtoon aesthetic, safe for work, no nudity, no sexual content, no gore, no real people, no copyrighted characters or logos, original characters only, all-ages friendly"
+    },
+    {
+      "panel": 4,
+      "scene": "Rohan and Kabir are laughing loudly, oblivious to Priya's spying.",
+      "characters": "Rohan, clutching his stomach, tears welling in his eyes. Kabir, clapping Rohan on the back. Both in school uniform.",
+      "dialogue": "Kabir: \"The best part was when he started fanning his mouth with his hall pass!\"\nRohan: \"I can't... breathe... laughing too hard!\"",
+      "camera_angle": "Medium shot, showing Rohan and Kabir laughing hysterically.",
+      "emotion": "Humorous, joyful.",
+      "image_prompt": "Two high school students, Rohan and Kabir, are laughing hysterically in a school hallway. Rohan is clutching his stomach with tears in his eyes, while Kabir claps him on the back. The background is a typical school hallway with lockers.. Comic book art style, clean lines, vibrant colors, slightly anime-influenced webtoon aesthetic, safe for work, no nudity, no sexual content, no gore, no real people, no copyrighted characters or logos, original characters only, all-ages friendly"
+    },
+    {
+      "panel": 5,
+      "scene": "Priya abruptly 'stumbles' forward, dropping her book in front of Rohan and Kabir.",
+      "characters": "Priya, feigning surprise, with a book splayed open on the floor. Rohan and Kabir look startled. All wearing school uniforms.",
+      "dialogue": "Priya: \"Oh! Excuse me! I'm so clumsy sometimes! What were you two discussing so animatedly?\"",
+      "camera_angle": "Wide shot, showing the trio with the book on the floor.",
+      "emotion": "Innocent, inquisitive (but also mischievous).",
+      "image_prompt": "A high school student, Priya, has \"accidentally\" dropped her book in front of two other students, Rohan and Kabir, in a school hallway. Priya is feigning surprise, while Rohan and Kabir look startled. The book is splayed open on the floor. Lockers are visible in the background.. Comic book art style, clean lines, vibrant colors, slightly anime-influenced webtoon aesthetic, safe for work, no nudity, no sexual content, no gore, no real people, no copyrighted characters or logos, original characters only, all-ages friendly"
+    },
+    {
+      "panel": 6,
+      "scene": "Trio standing in the hallway. Rohan and Kabir exchange nervous glances. Priya smiles innocently.",
+      "characters": "Rohan, sweating. Kabir, shrugging with a mischievous grin. Priya, smiling sweetly, eyes twinkling. All in school uniform.",
+      "dialogue": "Kabir: \"Just... a little story about\u2026 lunch. You know, the usual.\"\nPriya: (Smiling sweetly) \"Oh, do tell! I'm *always* interested in culinary anecdotes\u2026 especially involving spicy samosas!\"\nRohan: (Muttering) \"Bernoulli's principle would explain the fanning...\"",
+      "camera_angle": "Medium shot, focusing on the trio's faces and expressions.",
+      "emotion": "Awkward, suspicious, mischievous.",
+      "image_prompt": "Three high school students, Priya, Rohan, and Kabir, are standing in a school hallway. Rohan is sweating nervously, Kabir is shrugging with a mischievous grin, and Priya is smiling sweetly with twinkling eyes. Lockers are in the background. The lighting is bright and typical of a school hallway.. Comic book art style, clean lines, vibrant colors, slightly anime-influenced webtoon aesthetic, safe for work, no nudity, no sexual content, no gore, no real people, no copyrighted characters or logos, original characters only, all-ages friendly"
+    }
+  ],
+  "image_paths": [
+    "gandhinagar_school_project/comics/6087e4ef/panel_1.png",
+    "gandhinagar_school_project/comics/6087e4ef/panel_2.png",
+    "gandhinagar_school_project/comics/6087e4ef/panel_3.png",
+    "gandhinagar_school_project/comics/6087e4ef/panel_4.png",
+    "gandhinagar_school_project/comics/6087e4ef/panel_5.png",
+    "gandhinagar_school_project/comics/6087e4ef/panel_6.png"
+  ]
+}

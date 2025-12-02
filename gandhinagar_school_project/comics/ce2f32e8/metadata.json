@@ -1,0 +1,69 @@
+{
+  "id": "ce2f32e8",
+  "created_at": "2025-12-02T13:26:40.486224",
+  "story": "Here's a comic strip story idea featuring Rohan and Kabir, suitable for all ages:\n\n**Title: Priyaa's Thepla Predicament**\n\n**Panel 1:**\n\n*   **Setting:** School hallway. Rohan (glasses, neat uniform, anxious expression) is talking to Kabir (casual clothes, big grin).\n*   **Visual:** Rohan fidgets with his ID card. Kabir has an arm slung around Rohan\u2019s shoulder.\n*   **Dialogue:**\n    *   Kabir: \"Dude, relax! Priyaa's totally gonna say yes to joining our coding club.\"\n    *   Rohan: \"But what if\u2026 what if her parents don't let her? My parents are so strict about studies.\"\n\n**Panel 2:**\n\n*   **Setting:** Flashback - Patel household. Anjali Ben is piling theplas onto Rohan's plate. Mr. Patel reads a newspaper, looking stern.\n*   **Visual:** Close-up of Anjali Ben's worried face and a mountain of theplas. Mr. Patel's newspaper headline reads: \"GSEB Results: Top Scores Needed!\"\n*   **Dialogue:**\n    *   Anjali Ben: \"Rohan, beta, eat more! You\u2019re getting too thin! How will you concentrate on exams?\"\n    *   Mr. Patel: (muttering from behind the newspaper) \"Focus on studies, Rohan. Coding clubs are a distraction.\"\n\n**Panel 3:**\n\n*   **Setting:** Back to the school hallway. Rohan is even more stressed.\n*   **Visual:** Rohan\u2019s glasses are slightly askew. Sweat is beading on his forehead. Kabir pats him on the back reassuringly.\n*   **Dialogue:**\n    *   Rohan: \"See! It's hopeless! Her family probably only lets her eat healthy vegetables and reads complex literature after school.\"\n    *   Kabir: \"Maybe\u2026 or maybe they secretly love coding and thepla!\"\n\n**Panel 4:**\n\n*   **Setting:** Priyaa\u2019s house. She opens the door, holding a plate piled high with theplas. Her mom waves cheerfully from behind.\n*   **Visual:** Priyaa smiles, holding the plate. Her mom peeks out, wearing a \"I <3 Tech\" t-shirt.\n*   **Dialogue:**\n    *   Priyaa: \"Hey guys! My mom made extra theplas. And guess what? She's a software engineer! She wants to help with the coding club!\"\n\n**Panel 5:**\n\n*   **Setting:** School coding club meeting. Priyaa, Rohan, Kabir, and Priyaa\u2019s mom are huddled around a computer, laughing.\n*   **Visual:** Coding on screen. Everyone enjoying food.\n*   **Dialogue:**\n    *   Kabir: \"Awesome! We\u2019re in business!\"\n    *   Rohan: (smiling, relieved) \"Wow! This is\u2026 great!\"\n\n**Panel 6:**\n\n*   **Setting:** Rohan is at home, eating theplas with gusto. Anjali Ben beams. Mr. Patel lowers his newspaper, a slight smile on his face.\n*   **Visual:** Rohan is actually enjoying the theplas. Close up on Mr. Patel's small smile.\n*   **Dialogue:**\n    *   Anjali Ben: \"See, Rohan? Theplas help you think! Tell me all about your coding club, beta.\"\n    *   Mr. Patel: (grumbling softly) \"...as long as your grades don't suffer.\"\n    *   Rohan: (thinking bubble) \"The power of thepla... and coding!\"",
+  "prompts": [
+    {
+      "panel": 1,
+      "scene": "School hallway. Rohan is talking to Kabir.",
+      "characters": "Rohan (glasses, neat Gandhinagar school uniform, anxious expression, fidgeting with his ID card). Kabir (casual clothes, big grin, arm slung around Rohan\u2019s shoulder).",
+      "dialogue": "Kabir: Dude, relax! Priyaa's totally gonna say yes to joining our coding club.\nRohan: But what if\u2026 what if her parents don't let her? My parents are so strict about studies.",
+      "camera_angle": "Medium shot, showing both characters from the waist up.",
+      "emotion": "Anxious, hopeful",
+      "image_prompt": "A brightly lit school hallway in Gandhinagar. Rohan, a slender Indian teenage boy in a beige school uniform and glasses, looks worried. He is nervously fiddling with his ID card. Kabir, a more relaxed-looking Indian teen in casual clothes, has his arm around Rohan's shoulder and is grinning confidently. The background shows lockers and other students passing by.. Comic book art style, clean lines, vibrant colors, slightly anime-influenced webtoon aesthetic, safe for work, no nudity, no sexual content, no gore, no real people, no copyrighted characters or logos, original characters only, all-ages friendly"
+    },
+    {
+      "panel": 2,
+      "scene": "Flashback - Patel household. Anjali Ben is piling theplas onto Rohan's plate. Mr. Patel reads a newspaper, looking stern.",
+      "characters": "Anjali Ben (worried face, traditional Indian sari). Mr. Patel (stern expression, formal shirt and trousers). Rohan (younger, same school uniform, overwhelmed expression). A mountain of theplas.",
+      "dialogue": "Anjali Ben: Rohan, beta, eat more! You\u2019re getting too thin! How will you concentrate on exams?\nMr. Patel: (muttering from behind the newspaper) Focus on studies, Rohan. Coding clubs are a distraction.",
+      "camera_angle": "Close-up on Anjali Ben's face and the plate of theplas, with Mr. Patel visible in the background over her shoulder.",
+      "emotion": "Pressured, worried",
+      "image_prompt": "A warm-toned flashback scene in a modest home. Anjali Ben, an Indian woman in a sari, has a worried expression as she heaps golden-brown theplas onto Rohan's plate. Mr. Patel, an older man in a formal shirt and trousers, sits at the table behind her, partially obscured by a newspaper with the headline 'GSEB Results: Top Scores Needed!'. Comic book art style, clean lines, vibrant colors, slightly anime-influenced webtoon aesthetic, safe for work, no nudity, no sexual content, no gore, no real people, no copyrighted characters or logos, original characters only, all-ages friendly"
+    },
+    {
+      "panel": 3,
+      "scene": "Back to the school hallway. Rohan is even more stressed.",
+      "characters": "Rohan (glasses askew, sweat on forehead, even more anxious). Kabir (patting him on the back reassuringly).",
+      "dialogue": "Rohan: See! It's hopeless! Her family probably only lets her eat healthy vegetables and reads complex literature after school.\nKabir: Maybe\u2026 or maybe they secretly love coding and thepla!",
+      "camera_angle": "Close-up on Rohan's face, with Kabir's hand on his back visible in the frame.",
+      "emotion": "Anxious, stressed, slightly humorous",
+      "image_prompt": "Back in the brightly lit school hallway. Rohan, the Indian teen in the beige uniform, is now sweating and his glasses are slightly crooked. He looks extremely anxious. Kabir is patting him reassuringly on the back, trying to cheer him up.. Comic book art style, clean lines, vibrant colors, slightly anime-influenced webtoon aesthetic, safe for work, no nudity, no sexual content, no gore, no real people, no copyrighted characters or logos, original characters only, all-ages friendly"
+    },
+    {
+      "panel": 4,
+      "scene": "Priyaa\u2019s house. She opens the door, holding a plate piled high with theplas. Her mom waves cheerfully from behind.",
+      "characters": "Priyaa (smiling, holding the theplas). Priyaa's mom (waving cheerfully, wearing a 'I <3 Tech' t-shirt).",
+      "dialogue": "Priyaa: Hey guys! My mom made extra theplas. And guess what? She's a software engineer! She wants to help with the coding club!",
+      "camera_angle": "Medium shot, showing Priyaa in the doorway and her mom in the background.",
+      "emotion": "Friendly, surprising, welcoming",
+      "image_prompt": "A brightly colored house entrance. Priyaa, an Indian girl with a friendly smile, opens the door and holds out a plate of theplas. Behind her, her mom waves cheerfully, wearing a casual \"I <3 Tech\" t-shirt. The scene is welcoming and bright.. Comic book art style, clean lines, vibrant colors, slightly anime-influenced webtoon aesthetic, safe for work, no nudity, no sexual content, no gore, no real people, no copyrighted characters or logos, original characters only, all-ages friendly"
+    },
+    {
+      "panel": 5,
+      "scene": "School coding club meeting. Priyaa, Rohan, Kabir, and Priyaa\u2019s mom are huddled around a computer, laughing.",
+      "characters": "Priyaa, Rohan, Kabir, Priyaa\u2019s mom (all laughing and engaged). A computer screen with code visible.",
+      "dialogue": "Kabir: Awesome! We\u2019re in business!\nRohan: Wow! This is\u2026 great!",
+      "camera_angle": "Wide shot, showing the whole group around the table.",
+      "emotion": "Happy, collaborative",
+      "image_prompt": "A school classroom transformed into a coding club meeting. Priyaa, Rohan, Kabir, and Priyaa\u2019s mom are gathered around a table, looking at a computer screen filled with code. They are all laughing and enjoying themselves. Empty thepla plates are visible on the table.. Comic book art style, clean lines, vibrant colors, slightly anime-influenced webtoon aesthetic, safe for work, no nudity, no sexual content, no gore, no real people, no copyrighted characters or logos, original characters only, all-ages friendly"
+    },
+    {
+      "panel": 6,
+      "scene": "Rohan is at home, eating theplas with gusto. Anjali Ben beams. Mr. Patel lowers his newspaper, a slight smile on his face.",
+      "characters": "Rohan (eating theplas happily). Anjali Ben (beaming). Mr. Patel (slight smile, lowering his newspaper).",
+      "dialogue": "Anjali Ben: See, Rohan? Theplas help you think! Tell me all about your coding club, beta.\nMr. Patel: (grumbling softly) ...as long as your grades don't suffer.\nRohan: (thinking bubble) The power of thepla... and coding!",
+      "camera_angle": "Medium shot, showing Rohan at the table with his parents.",
+      "emotion": "Contentment, acceptance",
+      "image_prompt": "Back in the Patel household. Rohan is now happily eating theplas. Anjali Ben is beaming with pride. Mr. Patel is lowering his newspaper, a slight smile playing on his lips. A thought bubble above Rohan's head shows a thepla and lines of code.. Comic book art style, clean lines, vibrant colors, slightly anime-influenced webtoon aesthetic, safe for work, no nudity, no sexual content, no gore, no real people, no copyrighted characters or logos, original characters only, all-ages friendly"
+    }
+  ],
+  "image_paths": [
+    "gandhinagar_school_project/comics/ce2f32e8/panel_1.png",
+    "gandhinagar_school_project/comics/ce2f32e8/panel_2.png",
+    "gandhinagar_school_project/comics/ce2f32e8/panel_3.png",
+    "gandhinagar_school_project/comics/ce2f32e8/panel_4.png",
+    "gandhinagar_school_project/comics/ce2f32e8/panel_5.png",
+    "gandhinagar_school_project/comics/ce2f32e8/panel_6.png"
+  ]
+}

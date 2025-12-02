@@ -1,0 +1,69 @@
+{
+  "id": "e73bf2ef",
+  "created_at": "2025-12-02T14:30:36.113396",
+  "story": "**Title: The Great School Rush**\n\n**Panel 1:**\n\n*   **Setting:** Kabir's bedroom. His alarm clock reads 7:55 AM. (School starts at 8:00 AM). He's sprawled on his bed, deeply asleep, blanket tangled around him.\n*   **Visual:** Sunbeams streaming through the window, dust motes dancing. Exaggerated snoring coming from Kabir.\n*   **Dialogue:** (Sound Effect) *ZZZZZZZZ!*\n\n**Panel 2:**\n\n*   **Setting:** Kabir jolts awake, eyes wide with panic.\n*   **Visual:** Hair even messier than usual. Speech bubble with a clock showing 7:58 AM.\n*   **Dialogue:**\n    *   **Kabir:** \"Aiyyo! School!\"\n\n**Panel 3:**\n\n*   **Setting:** Kabir dashes through his house, grabbing his backpack and shoving a roti into his mouth simultaneously. His mom stands in the doorway, shaking her head with a smile.\n*   **Visual:** Backpack overflowing with books. Roti crumbs flying.\n*   **Dialogue:**\n    *   **Mom:** \"Kabir! Be careful! And chew your food!\"\n    *   **Kabir:** (Mouth full) \"Bye, Amma! Late!\"\n\n**Panel 4:**\n\n*   **Setting:** Kabir sprints down the street, tie flapping in the wind. He trips over his untied shoelace.\n*   **Visual:** Hilariously exaggerated fall, books scattering everywhere. A stray dog looks on with amusement.\n*   **Dialogue:** (Sound Effect) *THUMP!*\n    *   **Kabir:** \"Oof!\"\n\n**Panel 5:**\n\n*   **Setting:** Kabir bursts through the school gates, breathless. He sees Rohan calmly standing near the entrance, adjusting his glasses.\n*   **Visual:** Rohan looks unperturbed, holding a tablet. Kabir is disheveled, shoelace still untied.\n*   **Dialogue:**\n    *   **Kabir:** \"Rohan! What time is it?\"\n    *   **Rohan:** (Looking at his digital watch) \"7:59:50. You have ten seconds.\"\n\n**Panel 6:**\n\n*   **Setting:** Inside the classroom. Kabir slides into his seat just as the bell rings. Mr. Sharma, the teacher, raises an eyebrow.\n*   **Visual:** Kabir grinning sheepishly, covered in leaves. Mr. Sharma has a twinkle in his eye.\n*   **Dialogue:** (Sound Effect) *BRRRRRRIIIIIIING!*\n    *   **Mr. Sharma:** \"Mr. Khan! Glad you could join us. Though, next time, try the door instead of the garden!\"\n    *   **Kabir:** (Smiling) \"Wouldn't miss it, sir!\"",
+  "prompts": [
+    {
+      "panel": 1,
+      "scene": "Kabir's bedroom. The alarm clock reads 7:55 AM. Kabir is asleep in bed.",
+      "characters": "Kabir, a 16-year-old Indian boy, sprawled asleep in his bed. Messy, dark hair. Wearing a casual t-shirt and pajama pants. Blanket tangled around him. The alarm clock is visible on his nightstand.",
+      "dialogue": "*ZZZZZZZZ!*",
+      "camera_angle": "Wide shot, angled slightly downwards to show the entire bed and part of the room.",
+      "emotion": "Peaceful, sleepy.",
+      "image_prompt": "A sunny bedroom. A teenage Indian boy, Kabir, is fast asleep in his bed, covered in a blanket. An alarm clock on the nightstand reads 7:55 AM. Sunbeams streaming through the window. Cartoonish snoring sound effect: 'ZZZZZZZZ!'. Comic book art style, clean lines, vibrant colors, slightly anime-influenced webtoon aesthetic, safe for work, no nudity, no sexual content, no gore, no real people, no copyrighted characters or logos, original characters only, all-ages friendly"
+    },
+    {
+      "panel": 2,
+      "scene": "Kabir wakes up suddenly, realizing he's late.",
+      "characters": "Kabir, sitting bolt upright in bed, eyes wide with panic. Hair even messier. Pajamas rumpled.",
+      "dialogue": "Aiyyo! School!",
+      "camera_angle": "Close-up on Kabir's face.",
+      "emotion": "Panic, shock.",
+      "image_prompt": "Extreme close-up of a teenage Indian boy, Kabir, sitting up abruptly in bed. His eyes are wide with alarm and his dark hair is sticking up wildly. Speech bubble with the text 'Aiyyo! School!'. Comic book art style, clean lines, vibrant colors, slightly anime-influenced webtoon aesthetic, safe for work, no nudity, no sexual content, no gore, no real people, no copyrighted characters or logos, original characters only, all-ages friendly"
+    },
+    {
+      "panel": 3,
+      "scene": "Kabir rushes through his house, grabbing his backpack and food.",
+      "characters": "Kabir, dashing through a doorway. Backpack overflowing with books. His mom, an Indian woman in a sari, stands in the doorway, smiling and shaking her head. Kabir has a roti in his mouth.",
+      "dialogue": "Mom: Kabir! Be careful! And chew your food!\nKabir: (Mouth full) Bye, Amma! Late!",
+      "camera_angle": "Medium shot, showing Kabir running away from his mom.",
+      "emotion": "Hectic, rushed, slightly humorous.",
+      "image_prompt": "A teenage Indian boy, Kabir, rushing through his home, grabbing a backpack and holding a roti in his mouth. His mom, wearing a sari, stands in a doorway, smiling and shaking her head. Background shows a warm, inviting home interior.. Comic book art style, clean lines, vibrant colors, slightly anime-influenced webtoon aesthetic, safe for work, no nudity, no sexual content, no gore, no real people, no copyrighted characters or logos, original characters only, all-ages friendly"
+    },
+    {
+      "panel": 4,
+      "scene": "Kabir trips and falls on the street.",
+      "characters": "Kabir, sprawled on the ground, books scattered around him. Tie flapping. Untied shoelace visible. A stray dog watching him with amusement.",
+      "dialogue": "*THUMP!*\nKabir: Oof!",
+      "camera_angle": "Wide shot of the street, showing Kabir's fall.",
+      "emotion": "Comedic, clumsy.",
+      "image_prompt": "A teenage Indian boy, Kabir, tripping and falling on a street. Books are scattered around him. His tie is flapping in the wind. His shoelace is untied. A stray dog is looking at him with a slightly amused expression. Sound effect: 'THUMP!'. Comic book art style, clean lines, vibrant colors, slightly anime-influenced webtoon aesthetic, safe for work, no nudity, no sexual content, no gore, no real people, no copyrighted characters or logos, original characters only, all-ages friendly"
+    },
+    {
+      "panel": 5,
+      "scene": "Kabir arrives at school and sees Rohan.",
+      "characters": "Kabir, breathless and disheveled, bursting through the school gates. Rohan Patel, wearing his Gandhinagar school uniform and glasses, standing calmly near the entrance, holding a tablet.",
+      "dialogue": "Kabir: Rohan! What time is it?\nRohan: (Looking at his digital watch) 7:59:50. You have ten seconds.",
+      "camera_angle": "Medium shot, showing both Kabir and Rohan.",
+      "emotion": "Urgency, slight relief.",
+      "image_prompt": "A teenage Indian boy, Kabir, bursting through the school gates, looking frantic. Rohan Patel is standing nearby, looking calm and composed, adjusting his glasses and holding a tablet. Rohan is wearing a neatly pressed school uniform. School gates in the background.. Comic book art style, clean lines, vibrant colors, slightly anime-influenced webtoon aesthetic, safe for work, no nudity, no sexual content, no gore, no real people, no copyrighted characters or logos, original characters only, all-ages friendly"
+    },
+    {
+      "panel": 6,
+      "scene": "Kabir slides into his seat just as the bell rings.",
+      "characters": "Kabir, grinning sheepishly, sliding into his desk. Covered in leaves and dirt. Mr. Sharma, the teacher, standing at the front of the classroom, raising an eyebrow with a slight smile.",
+      "dialogue": "*BRRRRRRIIIIIIING!*\nMr. Sharma: Mr. Khan! Glad you could join us. Though, next time, try the door instead of the garden!\nKabir: (Smiling) Wouldn't miss it, sir!",
+      "camera_angle": "Medium shot, showing Kabir and Mr. Sharma.",
+      "emotion": "Relief, humor, slightly mischievous.",
+      "image_prompt": "Inside a classroom. A teenage Indian boy, Kabir, is sliding into his desk just as the school bell rings. He's covered in leaves and dirt. The teacher, Mr. Sharma, is standing at the front, raising an eyebrow with amusement. Sound effect: 'BRRRRRRIIIIIIING!'. Comic book art style, clean lines, vibrant colors, slightly anime-influenced webtoon aesthetic, safe for work, no nudity, no sexual content, no gore, no real people, no copyrighted characters or logos, original characters only, all-ages friendly"
+    }
+  ],
+  "image_paths": [
+    "gandhinagar_school_project/comics/e73bf2ef/panel_1.png",
+    "gandhinagar_school_project/comics/e73bf2ef/panel_2.png",
+    "gandhinagar_school_project/comics/e73bf2ef/panel_3.png",
+    "gandhinagar_school_project/comics/e73bf2ef/panel_4.png",
+    "gandhinagar_school_project/comics/e73bf2ef/panel_5.png",
+    "gandhinagar_school_project/comics/e73bf2ef/panel_6.png"
+  ]
+}

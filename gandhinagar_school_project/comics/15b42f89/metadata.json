@@ -1,0 +1,69 @@
+{
+  "id": "15b42f89",
+  "created_at": "2025-12-01T11:31:56.124972",
+  "story": "Here's a 6-panel comic strip story about Rohan Patel and his friends:\n\n**Title: PTM Panic!**\n\n**Panel 1:**\n\n*   **Setting:** Gandhinagar school corridor. Rohan, Priyan, and Kabir stand nervously outside the classroom door. Other kids walk past, some looking equally anxious.\n*   **Visual:** Rohan wrings his hands, Priyan chews his fingernails, and Kabir bounces his leg.\n*   **Dialogue:** Rohan: (Whispering) \"This is it. PTM day. My dad's going to hear about\u2026 the incident.\"\n*   **Dialogue:** Priyan: \"You too? My mom's armed with a list of my 'careless mistakes' in math!\"\n\n**Panel 2:**\n\n*   **Setting:** Interior of the classroom. Mr. Suresh Patel sits rigidly across from the teacher, Mrs. Desai. Rohan peeks through the doorway, a bead of sweat trickling down his temple.\n*   **Visual:** Mr. Patel has a stern expression, Mrs. Desai smiles politely but seems slightly uncomfortable.\n*   **Dialogue:** Mrs. Desai: \"\u2026and Rohan is a bright student, Mr. Patel. He just needs to\u2026\"\n*   **Dialogue:** Mr. Patel: (Interrupting) \"\u2026focus more on his studies and less on\u2026 what did you call it? 'Inventing'?\"\n\n**Panel 3:**\n\n*   **Setting:** Close-up on Rohan's face. He looks crestfallen, fiddling with his digital watch.\n*   **Visual:** Rohan's glasses magnify his worried eyes. His lip trembles slightly.\n*   **Dialogue:** (Thought bubble above Rohan's head): \"Oh no, she told him about the self-watering plant system I built for the school garden\u2026\"\n\n**Panel 4:**\n\n*   **Setting:** Back in the classroom. Mrs. Desai is showing Mr. Patel something on her laptop.\n*   **Visual:** Mrs. Desai points at the screen, smiling. Mr. Patel's expression softens.\n*   **Dialogue:** Mrs. Desai: \"But look, Mr. Patel. Rohan also created this incredible program to help younger students learn multiplication tables! It's quite impressive.\"\n\n**Panel 5:**\n\n*   **Setting:** The corridor again. Rohan, Priyan, and Kabir sit on a bench. Rohan's dad walks out of the classroom, a small smile on his face.\n*   **Visual:** Mr. Patel puts a hand on Rohan's shoulder. Rohan looks up, surprised. Priyan and Kabir stare with wide eyes.\n*   **Dialogue:** Mr. Patel: \"Rohan, Mrs. Desai tells me you're quite the\u2026 innovator. Let's talk about your inventions after dinner, beta.\"\n\n**Panel 6:**\n\n*   **Setting:** Outside the Patel's Government Quarters in Sector 21. Rohan, Priyan, and Kabir walk away from school. Rohan is grinning.\n*   **Visual:** Rohan's laptop is slightly askew under his arm, but his steps are lighter.\n*   **Dialogue:** Rohan: \"So, maybe PTM wasn't so bad after all! Dad seemed\u2026 almost proud?\"\n*   **Dialogue:** Kabir: \"See? Told ya! Now, about that multiplication game... Can it do *squares*?\"",
+  "prompts": [
+    {
+      "panel": 1,
+      "scene": "Gandhinagar school corridor. Rohan, Priyan, and Kabir stand nervously outside the classroom door. Other students walk past, some looking equally anxious.",
+      "characters": "Rohan Patel: An Indian teenage boy, slender build, wearing the Gandhinagar school uniform: beige shirt, brown trousers, black belt, black shoes, school ID. Neatly parted oiled dark hair, thick glasses, digital Casio watch. Wringing his hands, nervous expression. Priyan: An Indian teenage boy, wearing the same uniform. Chewing his fingernails, anxious. Kabir: An Indian teenage boy, same uniform. Bouncing his leg, fidgety.",
+      "dialogue": "Rohan: (Whispering) \"This is it. PTM day. My dad's going to hear about\u2026 the incident.\"\nPriyan: \"You too? My mom's armed with a list of my 'careless mistakes' in math!\"",
+      "camera_angle": "Medium shot",
+      "emotion": "Anxious, apprehensive",
+      "image_prompt": "A school corridor scene with three teenage Indian boys standing nervously outside a classroom door. Rohan is wringing his hands, Priyan is biting his nails, and Kabir is bouncing his leg. All are wearing beige school shirts and brown trousers, black belts, and school shoes. Other students walk past in the background, some looking equally worried. The classroom door is visible with a small sign indicating it's for 'PTM'.. Comic book art style, clean lines, vibrant colors, slightly anime-influenced webtoon aesthetic, safe for work, no nudity, no sexual content, no gore, no real people, no copyrighted characters or logos, original characters only, all-ages friendly"
+    },
+    {
+      "panel": 2,
+      "scene": "Interior of the classroom. Mr. Suresh Patel sits rigidly across from the teacher, Mrs. Desai. Rohan peeks through the doorway, a bead of sweat trickling down his temple.",
+      "characters": "Mr. Suresh Patel: An Indian man, middle-aged, wearing formal office attire. Stern expression, sitting rigidly. Mrs. Desai: An Indian woman, middle-aged, a teacher, wearing a sari. Smiling politely but looks slightly uncomfortable. Rohan Patel: Peeking through the doorway, looking worried, a bead of sweat on his temple. Wearing the school uniform.",
+      "dialogue": "Mrs. Desai: \"\u2026and Rohan is a bright student, Mr. Patel. He just needs to\u2026\"\nMr. Patel: (Interrupting) \"\u2026focus more on his studies and less on\u2026 what did you call it? 'Inventing'?\"",
+      "camera_angle": "Over-the-shoulder shot from Rohan's perspective",
+      "emotion": "Tension, apprehension, mild discomfort",
+      "image_prompt": "Classroom interior scene. Mr. Suresh Patel sits facing Mrs. Desai. Mr. Patel is stern. Mrs. Desai smiles, slightly uncomfortable. Rohan peeks from the doorway, sweat on his temple. Patel is in formal office wear, Desai is in a sari. The scene is viewed from Rohan's POV looking into the classroom. Desks and chairs are visible in the classroom.. Comic book art style, clean lines, vibrant colors, slightly anime-influenced webtoon aesthetic, safe for work, no nudity, no sexual content, no gore, no real people, no copyrighted characters or logos, original characters only, all-ages friendly"
+    },
+    {
+      "panel": 3,
+      "scene": "Close-up on Rohan's face. He looks crestfallen, fiddling with his digital watch.",
+      "characters": "Rohan Patel: Wearing the Gandhinagar school uniform, thick glasses, digital watch. Crestfallen expression, fiddling with his watch. His glasses magnify his worried eyes. His lip trembles slightly.",
+      "dialogue": "(Thought bubble above Rohan's head): \"Oh no, she told him about the self-watering plant system I built for the school garden\u2026\"",
+      "camera_angle": "Close-up",
+      "emotion": "Worry, disappointment, regret",
+      "image_prompt": "Extreme close-up of Rohan Patel's face. He is wearing his school uniform. His thick glasses magnify his worried eyes. His lip trembles. He is fiddling with his digital watch. A thought bubble above his head shows a small, simplified drawing of a self-watering plant system.. Comic book art style, clean lines, vibrant colors, slightly anime-influenced webtoon aesthetic, safe for work, no nudity, no sexual content, no gore, no real people, no copyrighted characters or logos, original characters only, all-ages friendly"
+    },
+    {
+      "panel": 4,
+      "scene": "Back in the classroom. Mrs. Desai is showing Mr. Patel something on her laptop.",
+      "characters": "Mrs. Desai: An Indian woman, a teacher, wearing a sari. Smiling, pointing at the laptop screen. Mr. Suresh Patel: An Indian man, wearing formal office attire. His expression is softening, looking at the laptop screen.",
+      "dialogue": "Mrs. Desai: \"But look, Mr. Patel. Rohan also created this incredible program to help younger students learn multiplication tables! It's quite impressive.\"",
+      "camera_angle": "Medium shot",
+      "emotion": "Hopeful, impressed",
+      "image_prompt": "Classroom interior. Mrs. Desai is pointing at a laptop screen, showing something to Mr. Patel. Mrs. Desai is smiling. Mr. Patel's expression is softening. The laptop screen displays a colorful, child-friendly multiplication table program. Desks and chairs in the background.. Comic book art style, clean lines, vibrant colors, slightly anime-influenced webtoon aesthetic, safe for work, no nudity, no sexual content, no gore, no real people, no copyrighted characters or logos, original characters only, all-ages friendly"
+    },
+    {
+      "panel": 5,
+      "scene": "The corridor again. Rohan, Priyan, and Kabir sit on a bench. Rohan's dad walks out of the classroom, a small smile on his face.",
+      "characters": "Rohan Patel: Sitting on a bench with Priyan and Kabir, looking up in surprise. Priyan and Kabir: Staring with wide eyes. Mr. Suresh Patel: Walking out of the classroom, a small smile on his face. Wearing formal office attire.",
+      "dialogue": "Mr. Patel: \"Rohan, Mrs. Desai tells me you're quite the\u2026 innovator. Let's talk about your inventions after dinner, beta.\"",
+      "camera_angle": "Medium shot",
+      "emotion": "Surprise, relief, cautious optimism",
+      "image_prompt": "School corridor scene. Rohan, Priyan, and Kabir sit on a bench. Rohan's dad, Mr. Patel, walks out of the classroom with a small smile. Rohan looks surprised. Priyan and Kabir stare with wide eyes. Mr. Patel is wearing formal office attire. The school corridor is visible in the background.. Comic book art style, clean lines, vibrant colors, slightly anime-influenced webtoon aesthetic, safe for work, no nudity, no sexual content, no gore, no real people, no copyrighted characters or logos, original characters only, all-ages friendly"
+    },
+    {
+      "panel": 6,
+      "scene": "Outside the Patel's Government Quarters in Sector 21. Rohan, Priyan, and Kabir walk away from school.",
+      "characters": "Rohan Patel: Walking with Priyan and Kabir. He is grinning, laptop slightly askew under his arm. Priyan and Kabir: Walking alongside Rohan. Normal expressions.",
+      "dialogue": "Rohan: \"So, maybe PTM wasn't so bad after all! Dad seemed\u2026 almost proud?\"\nKabir: \"See? Told ya! Now, about that multiplication game... Can it do *squares*?\"",
+      "camera_angle": "Wide shot",
+      "emotion": "Happy, hopeful, lighthearted",
+      "image_prompt": "A wide shot of Rohan, Priyan, and Kabir walking away from school towards Government Quarters in Sector 21. Rohan is grinning, his laptop is slightly askew. Priyan and Kabir are walking alongside him. The government quarters buildings are visible in the background. The sky is clear and bright.. Comic book art style, clean lines, vibrant colors, slightly anime-influenced webtoon aesthetic, safe for work, no nudity, no sexual content, no gore, no real people, no copyrighted characters or logos, original characters only, all-ages friendly"
+    }
+  ],
+  "image_paths": [
+    "gandhinagar_school_project/comics/15b42f89/panel_1.png",
+    "gandhinagar_school_project/comics/15b42f89/panel_2.png",
+    "gandhinagar_school_project/comics/15b42f89/panel_3.png",
+    "gandhinagar_school_project/comics/15b42f89/panel_4.png",
+    "gandhinagar_school_project/comics/15b42f89/panel_5.png",
+    "gandhinagar_school_project/comics/15b42f89/panel_6.png"
+  ]
+}

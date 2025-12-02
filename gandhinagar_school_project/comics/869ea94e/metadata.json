@@ -1,0 +1,69 @@
+{
+  "id": "869ea94e",
+  "created_at": "2025-12-02T14:13:23.866958",
+  "story": "Here's a story for a 6-panel comic strip featuring Rohan Patel and Kabir, focusing on Priya:\n\n**Title: The Priya Predicament**\n\n**Panel 1:**\n\n*   **Setting:** School hallway, lockers in the background. Rohan stands nervously, clutching his books, thick glasses slightly askew. Kabir, more relaxed, leans against a locker, grinning.\n*   **Visual:** Exaggerated sweat droplets on Rohan's forehead.\n*   **Dialogue:**\n    *   **Kabir:** (Pointing) \"Dude, chill! You look like you're about to debug a spaceship single-handedly.\"\n    *   **Rohan:** \"Easy for you to say, Kabir. I have to give Priya her math notes back! What if she asks... you know?\"\n\n**Panel 2:**\n\n*   **Setting:** Close up on Rohan's face, eyes wide with anxiety.\n*   **Visual:** Speech bubble filled with swirling question marks and a tiny drawing of a heart.\n*   **Dialogue:** (Rohan's internal monologue) \"Asks *what*? About my feelings? About the weather? About the optimal trajectory for a paper airplane?\"\n\n**Panel 3:**\n\n*   **Setting:** Wider shot, showing Priya approaching, smiling warmly. She's holding a science textbook.\n*   **Visual:** Priya has a small streak of marker on her cheek. Rohan freezes, rigid. Kabir gives him a subtle thumbs-up from behind Priya.\n*   **Dialogue:**\n    *   **Priya:** \"Hey Rohan! Thanks so much for the notes! I totally spaced during Mr. Sharma's lecture.\"\n\n**Panel 4:**\n\n*   **Setting:** Close-up on Rohan, stammering.\n*   **Visual:** Rohan\u2019s glasses are fogged up, one lens slightly popped out of the frame.\n*   **Dialogue:**\n    *   **Rohan:** \"Uh... no problem, Priya! Glad... glad they helped! The... the quadratic equation is... quite\u2026 fascinating.\"\n\n**Panel 5:**\n\n*   **Setting:** Full shot of the trio. Priya laughs, pointing at her cheek. Kabir is trying (and failing) not to laugh.\n*   **Visual:** Priya wiping the marker streak off her cheek. Rohan's uniform is slightly askew, ID card hanging crookedly.\n*   **Dialogue:**\n    *   **Priya:** \"Speaking of fascinating, I got marker all over my face in science class. Did anyone notice?\"\n    *   **Kabir:** (Barely containing laughter) \"Nope! Perfectly\u2026 invisible!\"\n\n**Panel 6:**\n\n*   **Setting:** Rohan and Kabir walking away from Priya. Rohan sighs in relief.\n*   **Visual:** Rohan fixing his glasses, a small smile playing on his lips. Kabir pats him on the back, chuckling.\n*   **Dialogue:**\n    *   **Rohan:** \"That was... easier than expected.\"\n    *   **Kabir:** \"See? Just gotta stay calm! Now, about those paper airplane trajectories...\"\n    *   **Rohan:** \"Actually, I have some ideas involving Bernoulli's principle...\"",
+  "prompts": [
+    {
+      "panel": 1,
+      "scene": "School hallway, lockers in the background.",
+      "characters": "Rohan: Nervous, clutching books, thick glasses slightly askew, wearing a school uniform. Kabir: Relaxed, leaning against a locker, grinning, casual clothes.",
+      "dialogue": "Kabir: Dude, chill! You look like you're about to debug a spaceship single-handedly.\nRohan: Easy for you to say, Kabir. I have to give Priya her math notes back! What if she asks... you know?",
+      "camera_angle": "Medium shot",
+      "emotion": "Anxious anticipation",
+      "image_prompt": "A school hallway with lockers. Rohan, a skinny Indian boy with thick glasses and a school uniform, looks nervous and sweaty, clutching books. Kabir, a more confident Indian boy with messy hair, leans against a locker, grinning at Rohan. Exaggerated sweat droplets on Rohan's forehead. Style of a comic book illustration.. Comic book art style, clean lines, vibrant colors, slightly anime-influenced webtoon aesthetic, safe for work, no nudity, no sexual content, no gore, no real people, no copyrighted characters or logos, original characters only, all-ages friendly"
+    },
+    {
+      "panel": 2,
+      "scene": "Close up on Rohan's face.",
+      "characters": "Rohan: Eyes wide with anxiety, panicked expression.",
+      "dialogue": "Rohan (internal monologue): Asks *what*? About my feelings? About the weather? About the optimal trajectory for a paper airplane?",
+      "camera_angle": "Extreme close-up",
+      "emotion": "Overwhelmed, internal panic",
+      "image_prompt": "A close-up of Rohan's face, an Indian boy with wide, anxious eyes and thick glasses. A speech bubble filled with swirling question marks and a tiny drawing of a heart floats near his head. Style of a comic book illustration.. Comic book art style, clean lines, vibrant colors, slightly anime-influenced webtoon aesthetic, safe for work, no nudity, no sexual content, no gore, no real people, no copyrighted characters or logos, original characters only, all-ages friendly"
+    },
+    {
+      "panel": 3,
+      "scene": "School hallway, Priya approaching.",
+      "characters": "Rohan: Frozen, rigid. Kabir: Subtly giving a thumbs-up from behind Priya. Priya: Approaching, smiling warmly, holding a science textbook, small streak of marker on her cheek.",
+      "dialogue": "Priya: Hey Rohan! Thanks so much for the notes! I totally spaced during Mr. Sharma's lecture.",
+      "camera_angle": "Medium shot",
+      "emotion": "Awkwardness",
+      "image_prompt": "A school hallway. Priya, an Indian girl with a warm smile and a streak of marker on her cheek, approaches Rohan and Kabir. Rohan stands frozen, while Kabir gives a subtle thumbs-up from behind Priya. Priya is holding a science textbook. Style of a comic book illustration.. Comic book art style, clean lines, vibrant colors, slightly anime-influenced webtoon aesthetic, safe for work, no nudity, no sexual content, no gore, no real people, no copyrighted characters or logos, original characters only, all-ages friendly"
+    },
+    {
+      "panel": 4,
+      "scene": "Close-up on Rohan.",
+      "characters": "Rohan: Stammering, glasses fogged up, one lens slightly popped out of the frame.",
+      "dialogue": "Rohan: Uh... no problem, Priya! Glad... glad they helped! The... the quadratic equation is... quite\u2026 fascinating.",
+      "camera_angle": "Close-up",
+      "emotion": "Nervousness, flustered",
+      "image_prompt": "A close-up of Rohan, an Indian boy with thick glasses that are fogged up and one lens popped out of the frame. He's stammering and looks incredibly nervous. Style of a comic book illustration.. Comic book art style, clean lines, vibrant colors, slightly anime-influenced webtoon aesthetic, safe for work, no nudity, no sexual content, no gore, no real people, no copyrighted characters or logos, original characters only, all-ages friendly"
+    },
+    {
+      "panel": 5,
+      "scene": "Full shot of the trio.",
+      "characters": "Priya: Laughing, pointing at her cheek, wiping off marker. Kabir: Trying (and failing) not to laugh. Rohan: Uniform slightly askew, ID card hanging crookedly.",
+      "dialogue": "Priya: Speaking of fascinating, I got marker all over my face in science class. Did anyone notice?\nKabir: (Barely containing laughter) Nope! Perfectly\u2026 invisible!",
+      "camera_angle": "Full shot",
+      "emotion": "Humor, embarrassment",
+      "image_prompt": "A full shot of Priya, Rohan, and Kabir in a school hallway. Priya is laughing and wiping a marker streak off her cheek. Kabir is trying not to laugh, and Rohan's uniform is askew, with his ID card hanging crookedly. Style of a comic book illustration.. Comic book art style, clean lines, vibrant colors, slightly anime-influenced webtoon aesthetic, safe for work, no nudity, no sexual content, no gore, no real people, no copyrighted characters or logos, original characters only, all-ages friendly"
+    },
+    {
+      "panel": 6,
+      "scene": "Rohan and Kabir walking away from Priya.",
+      "characters": "Rohan: Fixing his glasses, small smile. Kabir: Patting Rohan on the back, chuckling.",
+      "dialogue": "Rohan: That was... easier than expected.\nKabir: See? Just gotta stay calm! Now, about those paper airplane trajectories...\nRohan: Actually, I have some ideas involving Bernoulli's principle...",
+      "camera_angle": "Medium shot",
+      "emotion": "Relief, renewed interest",
+      "image_prompt": "Rohan and Kabir, both Indian boys, walking away from the viewer in a school hallway. Rohan is fixing his glasses and has a small smile on his face. Kabir is patting him on the back and chuckling. Style of a comic book illustration.. Comic book art style, clean lines, vibrant colors, slightly anime-influenced webtoon aesthetic, safe for work, no nudity, no sexual content, no gore, no real people, no copyrighted characters or logos, original characters only, all-ages friendly"
+    }
+  ],
+  "image_paths": [
+    "gandhinagar_school_project/comics/869ea94e/panel_1.png",
+    "gandhinagar_school_project/comics/869ea94e/panel_2.png",
+    "gandhinagar_school_project/comics/869ea94e/panel_3.png",
+    "gandhinagar_school_project/comics/869ea94e/panel_4.png",
+    "gandhinagar_school_project/comics/869ea94e/panel_5.png",
+    "gandhinagar_school_project/comics/869ea94e/panel_6.png"
+  ]
+}
