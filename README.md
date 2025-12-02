@@ -480,4 +480,4 @@ This project is open source and available for educational and creative purposes.
 
 For questions, suggestions, or collaboration opportunities, please open an issue on GitHub.
 
-**Happy Comic Creating!** 🎨📚
+
