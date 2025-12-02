@@ -4,17 +4,17 @@
 
 ```mermaid
 graph TB
-    subgraph UI["🎨 User Interface - Streamlit Web Application"]
+    subgraph UI[" User Interface - Streamlit Web Application"]
         direction LR
-        CS[📸 Character Studio]
-        SL[✍️ Story Lab]
-        CF[🖼️ Comic Factory]
-        QA[🌌 Ask Universe]
-        SA[📚 Story Archive]
-        IM[✨ Image Magic]
+        CS[ Character Studio]
+        SL[ Story Lab]
+        CF[ Comic Factory]
+        QA[ Ask Universe]
+        SA[ Story Archive]
+        IM[ Image Magic]
     end
     
-    subgraph APP["⚙️ Application Logic Layer"]
+    subgraph APP[" Application Logic Layer"]
         direction TB
         CM[Character Manager]
         SG[Story Generator]
@@ -26,7 +26,7 @@ graph TB
         RI[RAG Index]
     end
     
-    subgraph RAG["🔍 Multi-RAG Core Engine"]
+    subgraph RAG["Multi-RAG Core Engine"]
         direction TB
         VDB[(ChromaDB<br/>Vector Database)]
         EMB[HuggingFace<br/>Embeddings<br/>all-MiniLM-L6-v2]
@@ -38,14 +38,14 @@ graph TB
         VDB --> CTX
     end
     
-    subgraph AI["🤖 AI Services"]
+    subgraph AI[" AI Services"]
         direction TB
         GEM[Google Gemini 1.5<br/>Flash LLM]
         VIS[Gemini Vision<br/>Multi-Modal AI]
         POL[Pollinations.ai<br/>Image Generation]
     end
     
-    subgraph STORAGE["💾 Persistent Storage"]
+    subgraph STORAGE["Persistent Storage"]
         direction LR
         CDB[(Character<br/>Database)]
         STR[(Story<br/>Archive)]
@@ -113,7 +113,7 @@ graph TB
 
 ## Architecture Overview
 
-### 🎯 System Layers
+###  System Layers
 
 #### 1. **User Interface Layer** (Streamlit)
 The frontend provides 6 interactive modules:
@@ -157,7 +157,7 @@ Data persistence:
 
 ---
 
-## 🔄 Key Workflows
+##  Key Workflows
 
 ### Workflow 1: Character Creation
 ```
@@ -183,8 +183,8 @@ Story → Prompt Generator → RAG Retrieval → Character Data → Augmented Pr
 ```
 1. Approved story is broken into 6 scenes
 2. **Prompt Generator identifies characters in each scene**
-3. **RAG retrieves character descriptions from Vector DB** ⭐
-4. **Prompts are augmented with retrieved character details** ⭐
+3. **RAG retrieves character descriptions from Vector DB** 
+4. **Prompts are augmented with retrieved character details** 
 5. Pollinations generates images with consistent characters
 6. Dialogue is overlaid on panels
 
@@ -194,8 +194,8 @@ User Question → QA Engine → Vector Search → Context Retrieval → Gemini �
 ```
 1. User asks "Who is Kabir?"
 2. Question is embedded using HuggingFace
-3. **Vector similarity search finds relevant documents** ⭐
-4. **Top results are retrieved as context** ⭐
+3. **Vector similarity search finds relevant documents** 
+4. **Top results are retrieved as context** 
 5. Gemini generates answer using retrieved context
 6. Character images are displayed
 
@@ -206,26 +206,26 @@ Upload Image → Gemini Vision → Scene Description → RAG Retrieval → Chara
 1. User uploads reference image
 2. Gemini Vision analyzes and describes scene
 3. User selects characters to use
-4. **RAG retrieves selected character descriptions** ⭐
+4. **RAG retrieves selected character descriptions** 
 5. New prompt combines scene + character details
 6. Pollinations generates reimagined image
 
 ---
 
-## 🌟 Multi-RAG Innovation
+##  Multi-RAG Innovation
 
 ### The Problem Multi-RAG Solves
 Traditional AI image generators have **no memory**. Each generation is independent, causing:
-- ❌ Inconsistent character appearance
-- ❌ No continuity between panels
-- ❌ Manual prompt engineering for each image
+-  Inconsistent character appearance
+-  No continuity between panels
+-  Manual prompt engineering for each image
 
 ### The Multi-RAG Solution
 Our system maintains **persistent character memory**:
-- ✅ Characters stored in vector database
-- ✅ Automatic retrieval based on context
-- ✅ Prompts augmented with character details
-- ✅ Consistent appearance across all generations
+-  Characters stored in vector database
+-  Automatic retrieval based on context
+-  Prompts augmented with character details
+-  Consistent appearance across all generations
 
 ### How RAG Works (Step-by-Step)
 
@@ -285,7 +285,7 @@ Base: "Student running to school"
 
 ---
 
-## 📊 Data Flow Summary
+##  Data Flow Summary
 
 ```
 ┌─────────────┐
@@ -306,7 +306,7 @@ Base: "Student running to school"
        │
        ▼
 ┌─────────────────────────────────┐
-│   MULTI-RAG CORE ENGINE    ⭐   │
+│   MULTI-RAG CORE ENGINE        │
 │  ┌─────────────────────────┐   │
 │  │  Vector Search          │   │
 │  │  Context Retrieval      │   │
@@ -332,7 +332,7 @@ Base: "Student running to school"
 
 ---
 
-## 🎯 Key Features Enabled by Multi-RAG
+## Key Features Enabled by Multi-RAG
 
 1. **Character Consistency**: Same character looks identical across all panels
 2. **Intelligent Retrieval**: Natural language queries find relevant data
