@@ -1,0 +1,11 @@
+langchain>=0.1.0
+langchain-core>=0.1.0
+langchain-chroma
+langchain-huggingface
+sentence-transformers
+tiktoken
+google-generativeai
+streamlit
+pillow
+requests
+python-dotenv
