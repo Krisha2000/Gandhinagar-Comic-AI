@@ -7,7 +7,7 @@ An intelligent AI-powered comic generation platform that leverages **Multi-RAG (
 ![Google Gemini](https://img.shields.io/badge/Google%20Gemini-8E75B2?style=for-the-badge&logo=google&logoColor=white)
 
 ---
-# Link: https://gandhinagar-comic-mlse.streamlit.app
+### Link: https://gandhinagar-comic-mlse.streamlit.app
 ---
 
 <img width="2816" height="1536" alt="Gemini_Generated_Image_731d5r731d5r731d" src="https://github.com/user-attachments/assets/fb8a930b-8d70-4483-abbd-0a52b3286546" />
