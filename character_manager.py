@@ -6,12 +6,16 @@ import os
 import json
 import uuid
 from PIL import Image
-import google.generativeai as genai
+try:
+    import google.generativeai as genai
+except ImportError:
+    genai = None  # Generative AI not available; functions requiring it should handle this case
 import config
 import rag_index
 import comic_renderer
 
-genai.configure(api_key=config.GOOGLE_API_KEY)
+if genai is not None:
+    genai.configure(api_key=config.GOOGLE_API_KEY)
 
 def add_character_from_images(name: str, role: str, description: str, 
                                image_files: list, age: str = "", 

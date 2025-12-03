@@ -3,10 +3,12 @@ Configuration module for Gandhinagar Comic AI
 Loads all API keys and constants from environment variables
 """
 import os
-from dotenv import load_dotenv
-
-# Load environment variables from .env file
-load_dotenv()
+try:
+    from dotenv import load_dotenv
+    load_dotenv()
+except ImportError:
+    # dotenv not installed; skip loading .env file
+    pass
 
 # API Keys
 GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY", "")
@@ -38,9 +40,9 @@ PANEL_ASPECT_RATIO = "16:9"
 
 # Validation
 def validate_config():
-    """Validate that required configuration is present"""
+    """Validate that required configuration is present. Now only warns if missing keys."""
     if not GOOGLE_API_KEY:
-        raise ValueError("GOOGLE_API_KEY not found in environment variables. Please set it in .env file")
+        print("[WARNING] GOOGLE_API_KEY not set. Some features may be unavailable.")
     return True
 
 # Auto-validate on import
