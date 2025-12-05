@@ -160,7 +160,7 @@ if page == "Character Studio":
                     
                     st.info("Character added to the RAG database. You can now use them in stories!")
                     # Refresh the page to reload the character list
-                    st.experimental_rerun()
+                    st.rerun()
                     
                 except Exception as e:
                     st.error(f"Failed to create character: {e}")
